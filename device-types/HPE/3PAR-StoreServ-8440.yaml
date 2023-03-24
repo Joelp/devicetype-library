@@ -1,0 +1,48 @@
+---
+manufacturer: HPE
+model: 3PAR StoreServ 8440
+slug: 3par-storeserv-8440
+u_height: 2.0
+part_number: 
+is_full_depth: True
+airflow: front-to-rear
+console-ports:
+  - name: MFG-0
+    type: rj-45
+  - name: MFG-1
+    type: rj-45
+module-bays:
+  - name: Power 1
+    position: '1'
+  - name: Power 2
+    position: '2'
+  - name: PCI-HBA-0
+    position: '4'
+  - name: PCI-HBA-1
+    position: '3'
+interfaces:
+  - name: mgmt-0
+    type: 1000base-t
+    mgmt_only: true
+  - name: mgmt-1
+    type: 1000base-t
+    mgmt_only: true
+  - name: RC-1-0
+    type: 1000base-t
+    description: remote copy
+  - name: RC-1-1
+    type: 1000base-t
+    description: remote copy
+  - name: FC-1-0
+    type: 16gfc-sfpp
+    description: 16Gb FC port
+  - name: FC-1-1
+    type: 16gfc-sfpp
+    description: 16Gb FC port
+  - name: FC-2-0
+    type: 16gfc-sfpp
+    description: 16Gb FC port
+  - name: FC-2-1
+    type: 16gfc-sfpp
+    description: 16Gb FC port
+
